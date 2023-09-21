@@ -1,1 +1,0 @@
-{"version":3,"file":"bundle.js","mappings":";;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA","sources":["webpack://dpk/./js/index.js"],"sourcesContent":["function preload() { }\r\n\r\nfunction setup() { }\r\n\r\nfunction draw() {\r\n    console.log(\"hello\");\r\n}\r\n"],"names":[],"sourceRoot":""}
