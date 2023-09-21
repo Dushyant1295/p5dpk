@@ -1,0 +1,28 @@
+html {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-text-size-adjust: 100%;
+  -webkit-touch-callout: none; //MM
+  font-size: 100%;
+  @include media("<=tablet") {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision; //MM
+  overscroll-behavior: none; //G8
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+::selection {
+  color: #fdfdfd;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+ 

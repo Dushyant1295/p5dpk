@@ -1,0 +1,88 @@
+/**
+ * @license
+ *
+ * Font Family: Melodrama
+ * Designed by: Shaily Patel
+ * URL: https://www.fontshare.com/fonts/melodrama
+ * © 2022 Indian Type Foundry
+ *
+ 
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 300.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: 'Melodrama-Variable';
+  src: url('./Melodrama-Variable.woff2') format('woff2'),
+       url('./Melodrama-Variable.woff') format('woff'),
+       url('./Melodrama-Variable.ttf') format('truetype');
+       font-weight: 300 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'melodrama';
+  src: url('./Melodrama-Light.woff2') format('woff2'),
+       url('./Melodrama-Light.woff') format('woff'),
+       url('./Melodrama-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'melodrama';
+  src: url('./Melodrama-Regular.woff2') format('woff2'),
+       url('./Melodrama-Regular.woff') format('woff'),
+       url('./Melodrama-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'melodrama';
+  src: url('./Melodrama-Medium.woff2') format('woff2'),
+       url('./Melodrama-Medium.woff') format('woff'),
+       url('./Melodrama-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'melodrama';
+  src: url('./Melodrama-Semibold.woff2') format('woff2'),
+       url('./Melodrama-Semibold.woff') format('woff'),
+       url('./Melodrama-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'melodrama';
+  src: url('./Melodrama-Bold.woff2') format('woff2'),
+       url('./Melodrama-Bold.woff') format('woff'),
+       url('./Melodrama-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+

@@ -1,0 +1,32 @@
+:root {
+    --default: #f1f1f1;
+    --orange: #f45538;
+    --orange1: #ff6701;
+
+    --grid-padding: 9.5vw;
+    @include media(">=phone", "<=tablet") {
+        --grid-padding: 5.5vw;
+    }
+    @include media("<phone") {
+        --grid-padding: 4.5vw;
+    }
+
+    --cb-m1: cubic-bezier(0.23, 1, 0.32, 1);
+    --cb-m2: cubic-bezier(0, 0.96, 0.22, 1);
+    --cb-m3: cubic-bezier(0.36, 0.07, 0.19, 0.97);
+    --cb-m4: cubic-bezier(0.19, 1.51, 0.29, 0.99);
+}
+ 
+html.theme-1 {
+    @include media(">tablet") {
+        font-size: calc(100vw / 1440 * 10);
+    }
+
+    @include media(">=phone", "<=tablet") {
+        font-size: calc(100vw / 1024 * 10);
+    }
+
+    @include media("<phone") {
+        font-size: calc(100vw / 496 * 10);
+    }
+}
